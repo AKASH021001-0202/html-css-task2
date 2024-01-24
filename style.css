@@ -1,0 +1,118 @@
+body {
+  background: rgb(0, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
+}
+.input2_inner,
+.select1_inner {
+  width: 60%;
+}
+.input1_wrapper {
+  display: flex;
+  margin: 10px;
+  justify-self: center;
+  align-items: center;
+}
+label {
+  width: 40%;
+}
+.select1_wrapper {
+  display: contents !important;
+}
+
+h2,
+p {
+  color: white;
+}
+.card1 {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 30px;
+}
+.pb-50{
+    padding-bottom: 30px;
+}
+img{
+    width: 100%;
+}
+/* .selected-option{
+    width: 297px;
+    height: 38px;
+    border: 1px solid #ced4da;
+    color: #212529;
+}
+@media (max-width:767px){
+    .selected-option{
+    width: 192px;
+    height: 38px;
+    border: 1px solid #ced4da;
+    color: #212529;
+}
+} */
+
+select {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+  .custom-dropdown {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .selected-option {
+            padding: 8px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 38px;
+        }
+span{
+    color: #77828d;
+}
+.btn-2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+        .dropdown-options {
+           
+            display: none;
+            position: absolute;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-height: 100px;
+            overflow-y: auto;
+        }
+
+        .dropdown-options li {
+            padding: 8px;
+            cursor: pointer;
+        }
+
+        .dropdown-options li:hover {
+            background-color: #f0f0f0;
+        }
